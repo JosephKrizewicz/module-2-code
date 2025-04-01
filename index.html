@@ -4,80 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <section>
         <nav>
-            <img src="./assets/FES.svg" alt="">
+            <img src="./assets/FES.svg" class="logo" alt="">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <header>
+      <header>
+        <div class="row">
             <div>
-                <h1>Best place to learn frontend</h1>
-                <p>Go from being an absolute beginner to pro with a simplified process </p>
+                 <h1>Best place to learn frontend</h1>
+                <p class="subheader">Go from being an absolute beginner to pro with a simplified process </p>
                 <button>Start now</button>
             </div>
             <figure>
-                <img src="./assets/laptop.png" alt="Home pagekjhbkj image">
+                <img src="./assets/laptop.png" alt="Home page image">
             </figure>
-        </header>
+        </div>
+      </header>
     </section>
 
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique assumenda ab aperiam deserunt eaque totam nesciunt dolores molestiae autem odio vel nobis pariatur illo dicta, explicabo eius ullam quos! Non, beatae perferendis? Numquam quia aperiam magnam culpa voluptatibus iusto nulla possimus quas nam. Unde sit ut tenetur architecto, accusamus alias aliquid, quibusdam veniam assumenda ratione dignissimos ea quasi quae nam veritatis voluptatum laborum. Architecto ducimus nemo nostrum. Non voluptate natus itaque commodi! Expedita recusandae minima enim placeat? Tempora assumenda ex iusto obcaecati corporis perferendis unde molestias, mollitia nostrum, ipsa accusantium consequatur recusandae beatae! Quis harum eligendi mollitia sunt quam reiciendis.
+            <div class="row">       
+            <div class="section__description">
+             <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Im very excited to be learning something new and I hope to be able to continue to learn all the tips and tricks about how to effectivly be a pro
                 </p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique assumenda ab aperiam deserunt eaque totam nesciunt dolores molestiae autem odio vel nobis pariatur illo dicta, explicabo eius ullam quos! Non, beatae perferendis? Numquam quia aperiam magnam culpa voluptatibus iusto nulla possimus quas nam. Unde sit ut tenetur architecto, accusamus alias aliquid, quibusdam veniam assumenda ratione dignissimos ea quasi quae nam veritatis voluptatum laborum. Architecto ducimus nemo nostrum. Non voluptate natus itaque commodi! Expedita recusandae minima enim placeat? Tempora assumenda ex iusto obcaecati corporis perferendis unde molestias, mollitia nostrum, ipsa accusantium consequatur recusandae beatae! Quis harum eligendi mollitia sunt quam reiciendis.
-                </p>
-            </div>
-            <figure>
-                <img src="./assets/about.jpg" alt="about image">
-            </figure>
-        </section>  
+                 <p class="section__description--para">
+                   This is going to be used as a helpful resource guide for future reffrence and pointers
+                 </p>
+             </div>
+             <figure class="about__img--wrapper">
+                <img src="./assets/about.jpg" alt="">
+             </figure>
+           </div>
+        </div>
+     </section>  
 
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
-                <img src="./assets/discord.png" alt="discord image">
+            <div class="row">           
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+                <img src="./assets/discord.png" alt="discord">
             </figure>
-            <div>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima deleniti minus tempore sapiente tenetur nulla enim perspiciatis ea, vel molestiae corrupti! Repellendus commodi odio eos cum numquam, maxime ullam modi maiores doloremque iure consequatur unde blanditiis quaerat ut nesciunt nam beatae, odit libero dignissimos rerum ipsum! Ipsam quis fugit, ipsa cupiditate molestiae totam rerum blanditiis neque hic praesentium numquam expedita rem aliquam voluptatem, quaerat odit eum laborum. Porro eveniet quia minus ea quas, nisi deleniti temporibus sed eius consequuntur ipsam iure enim voluptate molestias ad. Quae, veniam eos! Deserunt saepe omnis mollitia illum nobis quaerat iusto et consequatur impedit numquam!
+            <div class="section__description--wrapper">
+                <p class="section__description--para">
+                    this is the discord section 
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor sapiente asperiores nihil, totam rerum dicta illum laborum cum vel, tempore reiciendis suscipit magnam esse odit voluptatum, libero itaque qui labore voluptatem aut quidem. Animi dolore illum adipisci! Eligendi minus repellendus asperiores ex, consequuntur dolores nemo ipsum consectetur aliquid. Quae eum eligendi reprehenderit voluptatem porro magni nam nisi. Temporibus quibusdam repellat optio ipsam cupiditate perferendis et eligendi blanditiis nulla qui. Suscipit laborum incidunt atque sunt delectus, quod, quo repellat reprehenderit inventore ut, eius doloremque. Rem vel eligendi incidunt porro possimus odio placeat sequi assumenda, provident reprehenderit, dolores, aliquam praesentium doloribus.
+                <p class="section__description--para">
+                    This is where we tell you about how awesome discord is espically for frontend courses
                 </p>
             </div>
+          </div>
+        </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <form action="">
                 <span>Email</span>
-                <input type="text" placeholder="jane@example.com">
+                <input type="email" placeholder="jane@example.com">
                 <span>Message</span>
-                <textarea type="text" placeholder="jane@example.com"></textarea>
+                <textarea type="text" placeholder="Cool website, let's get connected!"></textarea>
+                <button>Contact Us!</button>
             </form>
         </section>        
     </main>  
     
     <footer>
-        <img src="./assets/FES.svg" alt="Frontend Sinplified image">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">courses</a>
+        <img class="footer__logo" src="./assets/FES.svg" alt="Frontend Sinplified image">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
         <p>Copyright Frontend simplified</p>
     </footer>
 </body>
+
 </html>
